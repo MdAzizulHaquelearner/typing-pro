@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alphabet game pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="bg-[#010313] bg-no-repeat bg-center bg-[url(./images/background.png)] min-h-screen">
+        <!-- enter the game interface -->
+        <section class=" flex justify-center items-center min-h-screen" >
+        <div class="text-white flex flex-col space-y-3 items-center">
+            <h1 class="text-8xl font-extrabold anton">ALPHABET CLASH</h1>
+            <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+            <button class="btn btn-accent ">Play Now</button>
+        </div>
+        </section>
+        <!-- playGround section -->
+<section class="hidden">
+<div class="flex  flex-col items-center space-y-5 justify-center">
+    <div class="mt-10 text-white flex flex-col items-center artboard bg-[#3d7232cc] border-8 rounded-2xl border-[#060814cc] artboard-horizontal phone-6">
+   <p class="  p-3 rounded-b-2xl  bg-[#060814cc]">Don't watch keyboard  while playing...</p>
+  <div class="mt-4">
+    <span class="text-9xl font-bold ">Y</span>
+  </div>
+    </div>
+    <!-- keyboard -->
+    <div class="flex justify-center gap-1 my-1 w-full">
+        <kbd class="kbd">q</kbd>
+        <kbd class="kbd">w</kbd>
+        <kbd class="kbd">e</kbd>
+        <kbd class="kbd">r</kbd>
+        <kbd class="kbd">t</kbd>
+        <kbd class="kbd">y</kbd>
+        <kbd class="kbd">u</kbd>
+        <kbd class="kbd">i</kbd>
+        <kbd class="kbd">o</kbd>
+        <kbd class="kbd">p</kbd>
+      </div> 
+      <div class="flex justify-center gap-1 my-1 w-full">
+        <kbd class="kbd">a</kbd>
+        <kbd class="kbd">s</kbd>
+        <kbd class="kbd">d</kbd>
+        <kbd class="kbd">f</kbd>
+        <kbd class="kbd">g</kbd>
+        <kbd class="kbd">h</kbd>
+        <kbd class="kbd">j</kbd>
+        <kbd class="kbd">k</kbd>
+        <kbd class="kbd">l</kbd>
+      </div> 
+      <div class="flex justify-center gap-1 my-1 w-full">
+        <kbd class="kbd">z</kbd>
+        <kbd class="kbd">x</kbd>
+        <kbd class="kbd">c</kbd>
+        <kbd class="kbd">v</kbd>
+        <kbd class="kbd">b</kbd>
+        <kbd class="kbd">n</kbd>
+        <kbd class="kbd">m</kbd>
+        <kbd class="kbd">/</kbd>
+      </div>
+      
+     <div class="flex justify-between w-3/4">
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-secondary">Secondary</button>
+    </div>
+</div>
+</section>
+<!-- the final score section -->
+<section class="flex hidden  justify-center items-center min-h-screen">
+    <div class="p-5 flex items-center flex-col text-white bg-[#FFFFFF33] rounded-2xl space-y-4 ">
+        <h2 class="font-bold text-white text-7xl">Score : <span>0</span></h2>
+        <button class="btn btn-secondary ">play again</button>
+        <p>Practice will make you Pro</p>
+
+    </div>
+</section>
+    </main>
+</body>
+</html>
